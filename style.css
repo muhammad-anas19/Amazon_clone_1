@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+.nav-bar {
+    height: 9%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.897);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+.logo-section {
+    height: 80%;
+    width: 8%;
+}
+.logo-section:hover {
+    border: 1px solid white;
+}
+.logo-section img {
+    height: 100%;
+    width: 100%;
+}
+.location-section {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.5rem;
+}
+.location-section:hover {
+    border: 1px solid white;
+}
+.upper-text {
+    color: #cccccc;
+    font-size: 0.8rem;
+}
+.lower-text {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.search-section {
+    display: flex;
+    align-items: center;
+    height: 70%;
+    width: 50%;
+}
+.search-section .all-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: #cccccc;
+    height: 100%;
+    width: 10%;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+}
+.search-section .all-div:hover {
+    background-color: hsl(0, 0%, 70%);
+}
+.search-section .search {
+    height: 100%;
+    width: 80%;
+}
+.search-section .search input {
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+}
+.search-section .search-icon {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: orange;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+}
+.search-section .search-icon:hover {
+    background-color: #f0a822;
+}
+.signin-section {
+    display: flex; 
+    gap: 0.3rem;   
+    padding: 0.5rem;
+}
+.signin-section:hover {
+    border: 1px solid white;
+}
+.signin-section .icon {
+    display: flex;
+    align-items: end;
+    
+}
+.order-section {
+    padding: 0.5rem;
+}
+.order-section:hover {
+    border: 1px solid white;
+}
+.cart-section {
+    padding: 0.5rem;
+}
+.cart-section:hover {
+    border: 1px solid white;
+}
+
+
+
+
+
